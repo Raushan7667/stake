@@ -12,6 +12,11 @@ function App() {
   const [result, setResult] = useState("");
 
   const calculatePayment = () => {
+    if (!playerAName || !playerBName || !playerAInvestment || !playerBInvestment || !playerAGain || !playerBGain) {
+      alert("Please fill all fields before calculating!");
+      return;
+    }
+
     const aInv = parseFloat(playerAInvestment) || 0;
     const bInv = parseFloat(playerBInvestment) || 0;
     const aGain = parseFloat(playerAGain) || 0;
