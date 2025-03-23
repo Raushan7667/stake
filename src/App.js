@@ -20,12 +20,12 @@ function App() {
     const totalInvestment = aInv + bInv;
     const equalInvestment = totalInvestment / 2;
     const investmentDiffA = equalInvestment - aInv;
-    const investmentDiffB = bInv - equalInvestment;
+   
 
     const totalGain = aGain + bGain;
     const equalGain = totalGain / 2;
     const gainDiffA = equalGain - aGain;
-    const gainDiffB = bGain - equalGain;
+   
 
     const netPaymentAtoB = investmentDiffA - gainDiffA;
 
