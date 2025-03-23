@@ -139,7 +139,7 @@ function App() {
           onClick={calculatePayment}
           className="mt-8 w-full bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-3 rounded-lg font-semibold hover:from-indigo-700 hover:to-blue-600 transform hover:scale-105 transition duration-300"
         >
-          Calculate Now
+          Calculate
         </button>
 
         {/* Result */}
